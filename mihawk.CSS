@@ -1,0 +1,200 @@
+
+html, body
+{
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+    color: #222;
+}
+.navbar
+{
+    padding: .8rem;
+}
+.navbar-nav li
+{
+    padding-right: 20px;
+}
+nav-link
+{
+    font-size: 1.1e, !important;
+}
+/*slide image css*/
+.carousel-inner img
+{
+    width: 100%;
+    height: 100%;
+}
+.carousel-caption
+{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-bottom: 10rem;
+}
+.carousel-caption h1
+{
+    font-size: 500%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 10px #000;
+}
+.carousel-caption h3
+{
+    font-size: 200%;
+    font-weight: 500%;
+    text-shadow: 1px 1px 10px #000;
+    padding-bottom: 10rem;
+}
+#slides
+{
+    padding-bottom: 10rem;
+}
+.btnp-primary
+{
+    background-color: #6648b1;
+    border: 1px solid #563d7c;
+}
+.btn-primary:hover
+{
+    
+    background-color: #6648b1;
+    border: 1px solid #563d7c;
+}
+
+.padding
+{
+    padding-bottom: 2rem;
+}
+.welcome
+{
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+.welcome hr
+{
+    border-top: 2px solid #b4b4b4;
+    width: 95%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+}
+
+
+footer
+{
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 2rem;
+}
+hr.light
+{
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+footer a
+{
+    color: #d5d5d5;
+}
+hr.light-100
+{
+    border-top: 1px solid #d5d5d5;
+    width:100%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+/*click for the fun*/
+.fun
+{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.gif
+{
+    max-width: 100%;
+}
+
+
+/*media queries*/
+@media (max-width: 992px)
+{
+    
+}
+@media (max-width : 768px)
+{
+        .carousel-caption
+{
+    top: 25%;
+}
+.carousel-caption h1
+{
+    font-size: 350%;  
+}
+.carousel-caption h3
+{
+    font-size: 150%;
+    font-weight: 400%;
+    padding-bottom: .2rem;
+}
+    .carousel-caption .btn
+    {
+        font-size: 95%;
+        padding: 8px 14px;  
+    }
+    .display-4
+    {
+        font-size: 200%;
+    }
+}
+@media (max-width : 576px)
+{
+      .carousel-caption
+{
+    top: 30%;
+}
+.carousel-caption h1
+{
+    font-size: 200%;  
+}
+.carousel-caption h3
+{
+    font-size: 100%;
+    font-weight: 200%;
+    padding-bottom: .2rem;
+}
+    .carousel-caption .btn
+    {
+        font-size: 80%;
+        padding: 4px 8px;  
+    }   
+    .carousel-indicators
+    {
+        display: none;
+    }
+}
+
+/*firefox bug fix slide*/
+.carousel-item
+{
+    transition: -webkit-transform 0.3s ease;
+    transition: transform 0.3s ease;
+    transition: transform 0.3s ease;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+      /*fixed background*/
+}
+head
+{
+    background-color: black;
+}
+/*blog comment*/
+.comment
+{
+    box-shadow: 20px 2px black;
+    
+}
+
+.article
+{
+    
+}
