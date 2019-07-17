@@ -124,7 +124,7 @@ hr.light-100
 {
         .carousel-caption
 {
-    top: 25%;
+    top: 65%;
 }
 .carousel-caption h1
 {
@@ -150,7 +150,7 @@ hr.light-100
 {
       .carousel-caption
 {
-    top: 30%;
+    top: 60%;
 }
 .carousel-caption h1
 {
@@ -193,8 +193,6 @@ head
     box-shadow: 20px 2px black;
     
 }
+/*blog index*/
+ 
 
-.article
-{
-    
-}
